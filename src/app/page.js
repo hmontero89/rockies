@@ -47,6 +47,7 @@ export default function Home() {
       </main>
       <div className="bg-white px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
+          <h2 className='uppercase font-bold sm:text-sm lg:text-lg sm:pb-2 lg:pb-6'>Jugadores</h2>
           <PlayersList />
         </div>
       </div>
