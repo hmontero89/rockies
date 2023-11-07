@@ -1,6 +1,7 @@
 import Image from 'next/image';
-import PlayersList from './components/players-list';
 import { Fragment } from 'react';
+import FetchPlayers from './components/fetch-players';
+
 
 export const metadata = {
   title: 'Rocosos de Valencia',
@@ -48,7 +49,7 @@ export default function Home() {
       <div className="bg-white px-4 py-12 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl">
           <h2 className='uppercase font-bold sm:text-sm lg:text-lg sm:pb-2 lg:pb-6'>Jugadores</h2>
-          <PlayersList />
+          <FetchPlayers />
         </div>
       </div>
     </Fragment>
