@@ -44,12 +44,12 @@ export default function RockiesNavbar() {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link href="/player-registration" color="foreground">
             Registro
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="secondary">
+          <Link href="/" aria-current="page" color="secondary">
             Jugadores
           </Link>
         </NavbarItem>
